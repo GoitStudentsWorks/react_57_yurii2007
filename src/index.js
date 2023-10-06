@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistStor}>
-        <BrowserRouter basename="/moneyguard_project">
+        <BrowserRouter basename="/react_57_yurii2007">
           <Suspense fallback={<Loader />}>
             <App />
           </Suspense>
